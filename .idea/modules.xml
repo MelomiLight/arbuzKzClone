@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/arbuzKzClone.iml" filepath="$PROJECT_DIR$/.idea/arbuzKzClone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AdvancedGrpcProject.iml" filepath="$PROJECT_DIR$/.idea/AdvancedGrpcProject.iml" />
     </modules>
   </component>
 </project>
