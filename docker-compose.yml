@@ -1,0 +1,32 @@
+version: '3'
+services:
+  gateway_microservice:
+    image: gateway_microservice
+    networks:
+      - my_network
+    ports:
+      - 3000:3000
+
+  authorization_microservice:
+    image: authorization_microservice
+    networks:
+      - my_network
+    ports:
+      - 50051:50051
+
+  product_microservice:
+    image: product_microservice
+    networks:
+      - my_network
+    ports:
+      - 50052:50052
+
+  order_microservice:
+    image: order_microservice
+    networks:
+      - my_network
+    ports:
+      - 50053:50053
+
+networks:
+  my_network:
